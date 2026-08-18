@@ -4,7 +4,7 @@
    Body:    Manrope (clean, warm-neutral counterpart)
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
 :root {
   /* --- Base palette (provided) --- */
@@ -29,8 +29,8 @@
   --shadow-card: 0 12px 32px rgba(0, 0, 0, 0.45);
 
   /* --- Type scale --- */
-  --font-display: 'Unbounded', 'Segoe UI', sans-serif;
-  --font-body: 'Manrope', 'Segoe UI', sans-serif;
+  --font-display: 'Inter', 'Segoe UI', sans-serif;
+  --font-body:    'Inter', 'Segoe UI', sans-serif;
 
   /* --- Layout --- */
   --radius-sm: 10px;

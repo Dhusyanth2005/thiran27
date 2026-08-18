@@ -8,6 +8,7 @@ import {
   useMotionValueEvent,
 } from "framer-motion";
 import "./Navbar.css";
+import logo from "../../assets/logo.png";
 
 const SPRING = { type: "spring", stiffness: 200, damping: 38 };
 
@@ -85,18 +86,13 @@ export default function Navbar() {
           className="navbar__logo"
           onClick={() => setMobileOpen(false)}
         >
-          <motion.span
-            className="navbar__flame"
-            animate={{ scale: scrolled ? 0.88 : 1 }}
+          <motion.img
+            src={logo}
+            alt="Thiran 2026"
+            className="navbar__logo-img"
+            animate={{ height: scrolled ? 36 : 44 }}
             transition={SPRING}
-            aria-hidden="true"
-          >
-            ▲
-          </motion.span>
-          <span className="navbar__logo-text">
-            <strong>THIRAN</strong>
-            <em>2026</em>
-          </span>
+          />
         </NavLink>
 
         {/* Nav links */}
