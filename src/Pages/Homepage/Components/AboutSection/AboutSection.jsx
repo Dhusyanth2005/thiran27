@@ -1,5 +1,5 @@
 import "./AboutSection.css";
-import lightFlare from "../../../../assets/home-1-light.png";
+import WaveBackground from "../WaveBackground/WaveBackground"; // adjust path to match your project structure
 
 // Stats that carry a number get rendered as bold metric cards;
 // stats that are category labels (no count) get rendered as tag chips —
@@ -18,10 +18,8 @@ const tagStats = ["Spotlight Events", "Cultural Events & Contests", "Celebrity S
 export default function AboutSection() {
   return (
     <section className="about" id="about">
-      {/* Decorative light flare — bridges hero into about */}
-      <div className="about__flare" aria-hidden="true">
-        <img src={lightFlare} alt="" />
-      </div>
+      {/* Animated wave background — sits behind everything else in this section */}
+      <WaveBackground />
 
       <div className="container about__grid">
         {/* Stats */}

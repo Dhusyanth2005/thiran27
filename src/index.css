@@ -1,7 +1,5 @@
 /* ==========================================================================
    THIRAN 2026 — Global Design Tokens
-   Display: Unbounded (bold, geometric, techno-fest energy)
-   Body:    Manrope (clean, warm-neutral counterpart)
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
@@ -49,9 +47,6 @@
   padding: 0;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 body {
   background: var(--bg);

@@ -1,13 +1,14 @@
 .about {
   position: relative;
-  padding: 60px 0 40px;
-  background:
-    var(--gradient-glow),
-    var(--bg);
+  padding: 60px 0 80px;
+  background: var(--bg);
+  overflow: hidden; /* keeps the wave canvas clipped to the section */
 }
 
 /* Decorative light flare at section top */
 .about__flare {
+  position: relative;
+  z-index: 1; /* sits above the wave background */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -25,6 +26,8 @@
 }
 
 .about__grid {
+  position: relative;
+  z-index: 1; /* sits above the wave background */
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
   gap: 72px;
@@ -196,7 +199,7 @@
 
 @media (max-width: 960px) {
   .about {
-    padding: 80px 0 20px;
+    padding: 60px 0;
   }
 
   .about__grid {
