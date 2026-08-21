@@ -45,7 +45,7 @@ export default function AboutSection() {
         <div className="about__copy">
           <span className="about__eyebrow">About Event</span>
           <h2 className="about__heading">
-            Thiran 2026
+            Thiran 2027
             <span className="about__heading-accent">is here!</span>
           </h2>
           <p className="about__text">

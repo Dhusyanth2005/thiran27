@@ -2,7 +2,7 @@ import HeroSection from "./Components/HeroSection/HeroSection";
 import AboutSection from "./Components/AboutSection/AboutSection";
 import CountdownSection from "./Components/CountdownSection/CountdownSection";
 import InfoComponent from "./Components/InfoComponent/InfoComponent";
-
+import EventsGrid from "./Components/EventsGrid/EventsGrid";
 export default function HomePage() {
   return (
     <>
@@ -10,6 +10,7 @@ export default function HomePage() {
       <CountdownSection />
       <InfoComponent />
       <AboutSection />
+      <EventsGrid />
     </>
   );
 }

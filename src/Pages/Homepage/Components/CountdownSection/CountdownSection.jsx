@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import "./CountdownSection.css";
 import lightFlare from "../../../../assets/home-1-light.png";
 
-// Thiran 2026 fires up on this date — every unit below counts down to it.
+// Thiran 2027 fires up on this date — every unit below counts down to it.
 const EVENT_DATE = new Date("2027-02-04T00:00:00");
 
 const UNITS = [
@@ -76,7 +76,7 @@ export default function CountdownSection() {
         <span className="countdown__eyebrow">Ignition Sequence</span>
         <h2 className="countdown__heading">
           The Countdown to
-          <span className="countdown__heading-accent">Thiran 2026</span>
+          <span className="countdown__heading-accent">Thiran 2027</span>
         </h2>
         <p className="countdown__date">
           <span className="countdown__date-dot" aria-hidden="true" />
@@ -86,7 +86,7 @@ export default function CountdownSection() {
         {/* Live timer, or a launch banner once the countdown hits zero */}
         {time.done ? (
           <p className="countdown__live" role="status">
-            Thiran 2026 is live right now — see you on campus!
+            Thiran 2027 is live right now — see you on campus!
           </p>
         ) : (
           <div

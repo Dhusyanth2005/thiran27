@@ -88,7 +88,7 @@ export default function Navbar() {
         >
           <motion.img
             src={logo}
-            alt="Thiran 2026"
+            alt="Thiran 2027"
             className="navbar__logo-img"
             animate={{ height: scrolled ? 36 : 44 }}
             transition={SPRING}

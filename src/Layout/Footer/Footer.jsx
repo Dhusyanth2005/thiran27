@@ -31,7 +31,7 @@ export default function Footer() {
           <div className="footer__logo">
             <span className="footer__flame" aria-hidden="true">▲</span>
             <div>
-              <strong>THIRAN 2026</strong>
+              <strong>THIRAN 2027</strong>
               <p>Confluence of Talents</p>
             </div>
           </div>
@@ -40,7 +40,7 @@ export default function Footer() {
             Eshwar College of Engineering, Coimbatore — three days of hackathons,
             workshops, contests and celebrity shows.
           </p>
-          <p className="footer__dates">Feb 4, 5 &amp; 6, 2026 · Coimbatore, Tamil Nadu</p>
+          <p className="footer__dates">Feb 4, 5 &amp; 6, 2027 · Coimbatore, Tamil Nadu</p>
         </div>
 
         <div className="footer__col">
@@ -83,7 +83,7 @@ export default function Footer() {
 
       <div className="footer__bottom">
         <div className="container footer__bottom-row">
-          <p>© 2026 Sri Eshwar College of Engineering. All rights reserved.</p>
+          <p>© 2027 Sri Eshwar College of Engineering. All rights reserved.</p>
           <div className="footer__socials">
             {socials.map((s) => (
               <a key={s.label} href={s.href} target="_blank" rel="noreferrer">

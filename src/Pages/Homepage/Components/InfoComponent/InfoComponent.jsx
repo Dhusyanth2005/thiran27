@@ -19,7 +19,7 @@ export default function InfoComponent() {
                 <span className="date-num">25</span>
                 <span className="date-meta">
                   <span>JAN</span>
-                  <span>2026</span>
+                  <span>2027</span>
                 </span>
               </h2>
             </div>
