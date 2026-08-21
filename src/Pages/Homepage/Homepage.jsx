@@ -4,6 +4,11 @@ import CountdownSection from "./Components/CountdownSection/CountdownSection";
 import InfoComponent from "./Components/InfoComponent/InfoComponent";
 import EventsGrid from "./Components/EventsGrid/EventsGrid";
 import MarqueeSection from "./Components/Marqueesection/Marqueesection";
+import SpotlightEventsPage from "./Components/Spotlight/Spotlightseventspage";
+import SportsFest from "./Components/SportsFest/SportsFest";
+import Glimpses from "./Components/Glimpses/Glimpses";
+import FAQSection from "./Components/FaqSection/Faqsection";
+
 export default function HomePage() {
   return (
     <>
@@ -12,7 +17,11 @@ export default function HomePage() {
       <InfoComponent />
       <AboutSection />
       <EventsGrid />
-      <MarqueeSection/>
+      <MarqueeSection />
+      <SpotlightEventsPage />
+      <SportsFest />
+      <Glimpses/>
+      <FAQSection/>
     </>
   );
 }

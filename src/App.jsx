@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ReactLenis } from "lenis/react";
 import Layout from "./Layout/Layout";
 import HomePage from "./Pages/Homepage/Homepage";
+import Loader from "./Components/Loader/Loader";
 import "lenis/dist/lenis.css";
 import "./index.css";
 
@@ -10,6 +11,7 @@ import "./index.css";
 export default function App() {
   return (
     <ReactLenis root options={{ lerp: 0.1, duration: 1.2, smoothWheel: true }}>
+      <Loader />
       <BrowserRouter>
         <Routes>
           <Route element={<Layout />}>
