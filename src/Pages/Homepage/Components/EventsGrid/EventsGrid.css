@@ -72,7 +72,7 @@
     var(--indigo, #5b2a86) 100%
   );
   transform: rotate(20deg);
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .event-card__backdrop--two {
